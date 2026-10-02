@@ -1,0 +1,32 @@
+# 1. Bỏ qua dữ liệu cục bộ (RẤT QUAN TRỌNG)
+# Không đẩy file zip và các file csv dung lượng lớn lên GitHub
+data/raw/predict+students+dropout+and+academic+success.zip
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.npy
+
+# 2. Bỏ qua môi trường ảo Python
+venv/
+env/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 3. Bỏ qua file thực thi và cache của Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# 4. Bỏ qua cache của Jupyter Notebook
+.ipynb_checkpoints/
+
+# 5. Bỏ qua file cấu hình IDE và hệ thống (Windows/Mac)
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
