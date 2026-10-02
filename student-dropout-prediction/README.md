@@ -37,5 +37,6 @@ student-dropout-prediction/
 pip install -r requirements.txt
 **2. Chạy quy trình huấn luyện & Đánh giá (Chia test 3 phần độc lập)**
 ```bash
+python src/data_prep.py
 python src/train.py
 python src/evaluate.py
