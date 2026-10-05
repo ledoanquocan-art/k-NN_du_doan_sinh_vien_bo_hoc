@@ -30,3 +30,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# 6. Bỏ qua các file mô hình đã huấn luyện (dung lượng lớn)
+models/
+*.pkl
+*.joblib
